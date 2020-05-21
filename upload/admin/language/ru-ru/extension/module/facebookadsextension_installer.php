@@ -6,23 +6,17 @@
 // LICENSE file in the root directory of this source tree.
 
 $_['heading_title']                     = 'Facebook Business Extension';
-$_['button_get_started']                = 'Get Started';
-$_['button_manage_settings']            = 'Manage Settings';
-$_['sub_heading_title']                 = 'Turn your products into ads on Facebook';
-$_['body_text']                         = 'Easily install a pixel and create a product catalog on ' .
-                                          'Facebook to sell more of your products. Use the pixel to build the ' .
-                                          'right audience and measure the return on your ad spend. Promote all ' .
-                                          'your products at once with your catalog instead of having to create '.
-                                          'individual ads.';
-$_['resync_text']                       = 'Resync Products to Facebook';
-$_['resync_confirm_text']               = 'Facebook for OpenCart automatically syncs your products on create/update. Are you sure you want to force product resync? This will query all published products and may take some time. You only need to do this if your products are out of sync or some of your products did not sync.';
-$_['download_log_file_text']            = 'Download Log File';
-$_['download_log_file_error_warning']   = 'Warning: ' .
-                                          'Your error log file %s is %s!';
-$_['enable_cookie_bar_text']            = 'Show cookie bar on store website';
-$_['enable_special_price_text']         = 'Sync product special price as discount to Facebook catalog (requires resync of products)';
-$_['product_sync_tooltip_text']         = 'The product sync status check will be performed every 30 secs.';
-$_['fae_entry_point_text']              = 'The Facebook Business Extension can be accessed from the Main menu of your OpenCart admin panel.' .
-                                          '<br/>Or you can click <a href="%s">here</a> to access the Facebook Business Extension.';
-$_['sub_heading_settings']              = 'Settings';
-$_['alert_settings_saved']              = 'Settings saved';
+$_['button_get_started']                = 'Начать';
+$_['button_manage_settings']            = 'Управление настройками';
+$_['sub_heading_title']                 = 'Превратите свои продукты в рекламу на Facebook';
+$_['body_text']                         = 'Легко установите пиксель и создайте каталог товаров на Facebook, чтобы продавать больше своих товаров. Используйте пиксель, чтобы сформировать правильную аудиторию и измерить отдачу от затрат на рекламу.';
+$_['resync_text']                       = 'Повторная синхронизация продуктов с Facebook';
+$_['resync_confirm_text']               = 'Facebook для OpenCart автоматически синхронизирует Ваши продукты при создании/обновлении. Вы уверены, что хотите принудительно выполнить синхронизацию продукта? Это запросит все опубликованные продукты и может занять некоторое время. Это нужно делать только в том случае, если Ваши продукты не синхронизированы или некоторые из них не синхронизированы.';
+$_['download_log_file_text']            = 'Скачать файл журнала';
+$_['download_log_file_error_warning']   = 'Предупреждение: Ваш файл журнала ошибок %s из %s!';
+$_['enable_cookie_bar_text']            = 'Показать панель cookie на сайте магазина';
+$_['enable_special_price_text']         = 'Синхронизировать специальную цену продукта со скидкой в каталоге Facebook (требуется повторная синхронизация продуктов)';
+$_['product_sync_tooltip_text']         = 'Проверка состояния синхронизации продукта будет выполняться каждые 30 секунд.';
+$_['fae_entry_point_text']              = 'Расширение Facebook Business можно открыть из главного меню панели администратора OpenCart.<br/>Или Вы можете нажать <a href="%s">здесь</a>, чтобы получить доступ к Facebook Business Extension.';
+$_['sub_heading_settings']              = 'Настройки';
+$_['alert_settings_saved']              = 'Настройки сохранены';
