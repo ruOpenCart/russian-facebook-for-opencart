@@ -2,34 +2,41 @@
 Русский язык плагина Facebook for OpenCart для OpenCart
 
 ## Файлы
+
 * [OpenCart](https://opencart.com/)
-* [Facebook for OpenCart](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=32336)
+* [Facebook для OpenCart](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=32336)
 
 ## Описание расширения
-### Особенности:
-1. Автоматическое внедрение событий Facebook Pixel во все веб-страницы магазина в традиционном/отзывчивом веб-дизайне. События Pixel включают в себя:
-   - PageView
-   - ViewContent
-   - AddToCart
-   - Purchase
-   - InitiateCheckout
-   - Search
-   - ViewCategory
-   - AddToWishlist
-   - CompleteRegistration
-   - Lead
 
-2. Автоматическая синхронизация продуктов OpenCart с каталогом Facebook.
+### Особенности
 
-3. Отправка личной идентифицируемой информации в событиях Pixel в виде адреса электронной почты, имени, фамилии и телефона. Эта опция по умолчанию отключена и может быть изменена на этапе установки плагина.
+1. Автоматическая инъекция событий Facebook Pixel на все веб-страницы магазина в традиционном/адаптивном веб-дизайне. Также отслеживаются межсерверные события Pixel. Запущенные пиксельные события включают:
 
-4. Включение модуля чата Messenger на веб-странице Вашего магазина.
+  * PageView
+  * ViewContent
+  * Purchase
+  * AddToCart
+  * InitiateCheckout
+  * Search
+  * ViewCategory
+  * AddToWishlist
+  * CompleteRegistration
+  * Contact
+  * ViewBrand
 
-## Создание Facebook Business Extension для OpenCart из исходных кодов
-Заархивируйте содержимое папки и переименуйте его в facebook_ads_extension.ocmod.zip. НЕ включайте подпапку в корень zip-файла, так как это приведет к неудачной установке плагина.
+2. Автоматическая синхронизация ваших товаров OpenCart с каталогом Facebook.
 
-## Установка Facebook Business Extension на работающий веб-сайт OpenCart
-Обратитесь к руководству по установке [EN](https://github.com/facebookincubator/Facebook-For-OpenCart/blob/master/INSTALL_GUIDE.md) | [RU](https://github.com/ruOpenCart/facebook-for-opencart-russian/blob/master/INSTALL_GUIDE.md)
+3. Дополнительные поля каталога Facebook могут быть добавлены в продукты OpenCart для каталога Facebook, то есть конкретная категория продуктов Google, цвет, пол, материал и т. д.
 
-## Часто задаваемые вопросы
-Обратитесь к руководству FAQ [EN](https://github.com/facebookincubator/Facebook-For-OpenCart/blob/master/FAQ.md) | [RU](https://github.com/ruOpenCart/facebook-for-opencart-russian/blob/master/FAQ.md)
+4. Отправка персональной идентифицирующей информации в пиксельных событиях в виде адреса электронной почты, имени, фамилии и телефона. Эта опция по умолчанию отключена и может быть изменена на этапе установки плагина.
+
+5. Возможность отображать панель согласия на использование файлов cookie для клиентов, просматривающих ваш веб-сайт OpenCart.
+
+6. Включение плагина чата Facebook Messenger на вашем веб-сайте OpenCart.
+
+## Русификация Расширения Facebook Business для OpenCart
+
+* Для версии опенкарт до 2.3
+  * Может пора обновить опенкарт?
+* Для версии опенкарт 2.3+
+  * Загрузите содержимое папки `upload` в корень вашего опенкарт
